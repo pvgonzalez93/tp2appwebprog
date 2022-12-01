@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tp 2 Paula Gonzalez</title>
+   
+   <!--    PUSE BOOTSTRAP 4 PARA LOS ESTILOS-->
+    <link rel="stylesheet" href="bt/css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+
+    <!-- NAV-->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Mis notas</a>
+      </div>
+    </nav>
+
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <form id="formNotas">
+          <div class="form-group">
+            <input type="text" id="titulo" placeholder="Ingresa tu nota" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="datetime-local" id="fecha" cols="30" rows="10" class="form-control" placeholder="Ingresa la fecha de la tarea"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">guardar</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-body" id="notas">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+       
+    <script src="bt/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+   
+    
+  </body>
+</html>
